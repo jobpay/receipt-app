@@ -2,13 +2,17 @@
 
 レシートを撮影して自動で商品と金額を認識し、家計簿として管理できるReact Nativeアプリです。
 
+**(※App Store Connect の契約が終了しているため現在は非公開)**
+
+<img width="647" height="441" alt="スクリーンショット 2025-08-03 12 48 16" src="https://github.com/user-attachments/assets/972f2517-bf30-4936-985a-2e0a2670a6f1" />
+
+
 ## 🏆 アプリ実績
 
 ### App Store パフォーマンス
 - **総ダウンロード数**: 10,900+ (2020年10月〜2023年9月)
 - **App Store インプレッション**: 668,000+ 
 - **プロダクトページビュー**: 61,900+
-- **App Store Connect の契約が終了しているため現在は非公開**
 
 <img width="698" height="660" alt="スクリーンショット 2025-08-03 12 39 36" src="https://github.com/user-attachments/assets/4f66294f-bc78-4d13-b3af-c5db19bbf217" />
 
