@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "お買い物DB",
+    "slug": "receipt-app",
+    "platforms": ["ios", "android", "web"],
+    "version": "1.1.1",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ee8572"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "bundleIdentifier": "com.sk88.receipt-app",
+      "infoPlist": {
+        "NSCameraUsageDescription": "レシートを解析するためにカメラを使用します。",
+        "SKAdNetworkItems": [
+          {
+            "SKAdNetworkIdentifier": "cstr6suwn9.skadnetwork"
+          }
+        ]
+      },
+      "config": {
+        "googleMobileAdsAppId": "${ADMOB_APP_ID_IOS}"
+      },
+      "appStoreUrl": "https://itunes.apple.com/jp/app/id1535879394"
+    },
+    "android": {
+      "package": "com.sk88.receipt.app",
+      "versionCode": 1,
+      "permissions": ["CAMERA"]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "cloudVisionApiKey": "${CLOUD_VISION_API_KEY}"
+    }
+  }
+}
